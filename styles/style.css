@@ -11,7 +11,18 @@ body {
   align-items: center;
 }
 
-.nav__item {
+.nav__link {
   font-size: 20px;
   margin-right: 10px;
+  text-decoration: none;
+  color: rgb(49, 18, 18);
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link--active {
+  color: blueviolet;
+  text-decoration: underline;
 }
