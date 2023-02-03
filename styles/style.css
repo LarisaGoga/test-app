@@ -15,7 +15,7 @@ body {
   font-size: 20px;
   margin-right: 10px;
   text-decoration: none;
-  color: rgb(49, 18, 18);
+  color: black;
 }
 
 .nav__link:hover {
@@ -23,6 +23,29 @@ body {
 }
 
 .nav__link--active {
-  color: blueviolet;
+  color: rgb(238, 155, 155);
   text-decoration: underline;
+}
+
+.title {
+  font-size: 24px;
+  color: rgb(49, 18, 18);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.commands__list {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.commands__item {
+  margin-bottom: 15px;
 }
